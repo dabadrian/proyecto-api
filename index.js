@@ -4,6 +4,7 @@ const estadoRouter = require('./routes/estado');
 
 const app = express();
 const port = 3000;
+app.use(express.json());
 
 // Middleware para utilizar las rutas de usuarios
 app.use('/usuarios', usuariosRouter);
