@@ -4,6 +4,7 @@
 Este es el proyecto API REST con node.js  
 Proyecto deployado en render.com: https://proyecto-api-test.onrender.com  
 
+Lista de APIs en render.com:  
 Listar Usuarios: GET https://proyecto-api-test.onrender.com/usuarios/  
 Listar Usuario: GET https://proyecto-api-test.onrender.com/usuarios/5  
 Actualizar Usuario (req. json en body): PUT https://proyecto-api-test.onrender.com/usuarios/5  
