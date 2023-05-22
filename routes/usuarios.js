@@ -10,7 +10,7 @@ router.get('/promedio-edad', async (req, res) => {
     const { rows } = await pool.query(query);
     
     const promedioEdad = parseFloat(rows[0].promedio_edad);
-    res.json({ promedio_edad: promedioEdad });
+    res.json({ promedioEdad: promedioEdad });
   } catch (error) {
     console.error('Error al obtener el promedio de edad:', error);
     res.status(500).json({ error: 'Error al obtener el promedio de edad' });
