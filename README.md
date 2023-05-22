@@ -4,7 +4,7 @@
 Este es el proyecto API REST con node.js
 
 
-## Authors
+## Autores
 
 - [@dabadrian](https://github.com/dabadrian/)
 
@@ -66,7 +66,7 @@ En el directorio donde se clonó lanzar el proyecto Node.JS
   node index.js
 ```
 
-## API Reference
+## Referencia API 
 
 #### Mostrar Usuarios
 
