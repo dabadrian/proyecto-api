@@ -2,7 +2,14 @@
 # Proyecto API REST con Node.JS
 
 Este es el proyecto API REST con node.js  
-Proyecto deployado en render.com: https://proyecto-api-test.onrender.com
+Proyecto deployado en render.com: https://proyecto-api-test.onrender.com  
+Listar Usuarios: GET https://proyecto-api-test.onrender.com/usuarios/  
+Listar Usuario: GET https://proyecto-api-test.onrender.com/usuarios/5  
+Actualizar Usuario (req. json en body): PUT https://proyecto-api-test.onrender.com/usuarios/5  
+Crear Usuario POST (req. json en body) https://proyecto-api-test.onrender.com/usuarios/  
+Eliminar Usuario: DELETE https://proyecto-api-test.onrender.com/usuarios/10  
+Promedio Edades Usuarios: GET https://proyecto-api-test.onrender.com/promedio-edad//  
+Estado Proyecto: https://proyecto-api-test.onrender.com/estado/  
 
 ## Autores
 
