@@ -122,10 +122,10 @@ Json a enviar:
 Json a enviar:
 ```json
 {
-   "cedula_identidad":"5432109876",
+   "cedula_identidad":"5432109745",
    "nombre":"Carolina",
    "primer_apellido":"Herrera",
-   "segundo_apellido":"Choque",
+   "segundo_apellido":"Velez",
    "fecha_nacimiento":"1997-06-25T04:00:00.000Z"
 }
 ```
