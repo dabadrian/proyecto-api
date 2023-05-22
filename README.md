@@ -140,6 +140,12 @@ Json a enviar:
 | :-------- | :------- | :-------------------------------- |
 | `id_usuario`      | `int` | **Required**. Id del Usuario a eliminar |
 
+#### Promedio de edades
+
+```http
+  GET /usuarios/promedio-edad
+```
+
 #### Información del Proyecto
 
 ```http
