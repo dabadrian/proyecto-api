@@ -83,10 +83,6 @@ En el directorio donde se clonó lanzar el proyecto Node.JS
   GET /usuarios
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
 #### Mostrar usuario
 
 ```http
