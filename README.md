@@ -10,7 +10,7 @@ Listar Usuario: **GET** https://proyecto-api-test.onrender.com/usuarios/5
 Actualizar Usuario (req. json en body): **PUT** https://proyecto-api-test.onrender.com/usuarios/5  
 Crear Usuario (req. json en body) **POST** https://proyecto-api-test.onrender.com/usuarios/  
 Eliminar Usuario: **DELETE** https://proyecto-api-test.onrender.com/usuarios/10  
-Promedio Edades Usuarios: **GET** https://proyecto-api-test.onrender.com/promedio-edad/
+Promedio Edades Usuarios: **GET** https://proyecto-api-test.onrender.com/promedio-edad/  
 Estado Proyecto: **GET** https://proyecto-api-test.onrender.com/estado/  
 
 ## Autores
