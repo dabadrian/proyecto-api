@@ -61,6 +61,26 @@ router.post('/', async (req, res) => {
   }
 });
 
+// Ruta PUT para actualizar un usuario por su id_usuario
+router.put('/:id_usuario', async (req, res) => {
+  const { id_usuario } = req.params;
+  const { nombre, primer_apellido, segundo_apellido, fecha_nacimiento } = req.body;
+
+  try {
+    const query = 'UPDATE usuario SET nombre = $1, primer_apellido = $2, segundo_apellido = $3, fecha_nacimiento = $4 WHERE id_usuario = $5';
+    const result = await pool.query(query, [nombre, primer_apellido, segundo_apellido, fecha_nacimiento, id_usuario]);
+
+    if (result.rowCount === 0) {
+      res.status(404).json({ message: 'Usuario no encontrado' });
+    } else {
+      res.json({ message: 'Usuario actualizado exitosamente' });
+    }
+  } catch (error) {
+    console.error('Error al actualizar el usuario:', error);
+    res.status(500).json({ error: 'Error al actualizar el usuario' });
+  }
+});
+
 // Ruta DELETE para eliminar un usuario por su id_usuario
 router.delete('/:id_usuario', async (req, res) => {
   const { id_usuario } = req.params;
